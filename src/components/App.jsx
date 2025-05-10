@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="container">
 
-        <h1 className="title">Counter App</h1>
+        <h1 className="title" style={{fontSize:36,fontWeight:100}}>Counter App in React</h1>
         <h1>{count}</h1>
         <button onClick={decrease}>-</button>
         <button onClick={increase}>+</button>
